@@ -1,0 +1,21 @@
+# For loading environment variables from .env file
+python-dotenv
+
+# For interacting with Cloudflare R2 (S3 compatible)
+boto3
+botocore
+
+# For parsing PDF documents
+unstructured[pdf]
+
+# For connecting to the Google Gemini API
+google-generativeai
+
+# For the local vector database
+chromadb
+
+# For the local embedding models
+sentence-transformers
+
+# For making HTTP requests to the local Ollama server
+requests
